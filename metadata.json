@@ -1,0 +1,6 @@
+{
+  "name": "Research Paper Summarizer & Visualizer",
+  "description": "Gemini Notebook research synthesis platform with multi-source workspace, AI audio overviews, persistent visual slide decks, and multi-modal studio tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

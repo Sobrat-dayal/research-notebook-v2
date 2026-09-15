@@ -1,0 +1,1 @@
+ALTER TABLE `notebooks` ADD `storage_key` text;

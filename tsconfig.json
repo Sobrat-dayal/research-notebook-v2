@@ -1,0 +1,1 @@
+{"compilerOptions":{"target":"ES2022","module":"ESNext","lib":["ES2022","DOM","DOM.Iterable"],"skipLibCheck":true,"moduleResolution":"bundler","isolatedModules":true,"jsx":"react-jsx","allowImportingTsExtensions":true,"noEmit":true,"esModuleInterop":true,"types":["node","vite/client"]},"include":["src/v2","src/main.tsx","worker","db","vite.config.ts","drizzle.config.ts"]}

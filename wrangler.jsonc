@@ -1,0 +1,2 @@
+{"name":"research-notebook-v2","main":"worker/index.ts","compatibility_date":"2026-08-01","compatibility_flags":["nodejs_compat"],"assets":{"directory":"./dist/client","binding":"ASSETS","not_found_handling":"single-page-application","run_worker_first":["/api/*"]},"d1_databases":[{"binding":"DB","database_name":"research-v2","database_id":"local-research-v2","migrations_dir":"drizzle"}],"r2_buckets":[{"binding":"FILES","bucket_name":"research-v2-files"}],"vars":{"GEMINI_MODEL":"gemini-3.5-flash-lite"}}
+

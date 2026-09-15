@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #FDFCFB;
+    color: #1A1A1A;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(26, 26, 26, 0.03);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(166, 124, 82, 0.3);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(166, 124, 82, 0.6);
+}
+
+/* Fragments UI Design Tokens */
+.fragment-card {
+  background: #FFFFFF;
+  border: 1px solid rgba(26, 26, 26, 0.08);
+  box-shadow: 0 4px 20px -2px rgba(26, 26, 26, 0.04), 0 2px 6px -1px rgba(26, 26, 26, 0.02);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+}
+
+.fragment-card:hover {
+  border-color: rgba(166, 124, 82, 0.35);
+  box-shadow: 0 12px 30px -4px rgba(26, 26, 26, 0.08), 0 4px 12px -2px rgba(166, 124, 82, 0.08);
+  transform: translateY(-2px);
+}
+
+.fragment-border {
+  border: 1px solid rgba(26, 26, 26, 0.1);
+}
+
+.fragment-pill {
+  border: 1px solid rgba(26, 26, 26, 0.12);
+  background: #FFFFFF;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.fragment-pill:hover {
+  border-color: #A67C52;
+  transform: translateY(-1px);
+}
+
+/* Tactile button micro-interactions */
+.btn-tactile {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.btn-tactile:hover {
+  transform: translateY(-1.5px);
+}
+.btn-tactile:active {
+  transform: scale(0.97);
+}
+
+.editorial-bg {
+  background-color: #FDFCFB;
+}
+
+.editorial-card-bg {
+  background-color: #F9F7F2;
+}
+
+.editorial-accent {
+  color: #A67C52;
+}
+
+.editorial-accent-bg {
+  background-color: #A67C52;
+}
+
+.editorial-border {
+  border-color: rgba(26, 26, 26, 0.12);
+}
+
+.editorial-badge {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-weight: 700;
+}
+
+/* Subtle architectural grid lines */
+.bg-grid-pattern {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(26, 26, 26, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(26, 26, 26, 0.03) 1px, transparent 1px);
+}
+
+
